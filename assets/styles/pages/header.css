@@ -28,7 +28,7 @@
 }
 
 .header__container-h1 {
-    font-family: Lato , sans-serif;
+    font-family: 'Lato' , sans-serif;
 
     margin: 0px;
     margin-top: 2rem;
@@ -36,7 +36,7 @@
 } 
 
 .header__container-h2 {
-    font-family: Lato , sans-serif;
+    font-family: 'Lato' , sans-serif;
     margin: 0px;
 
 }
