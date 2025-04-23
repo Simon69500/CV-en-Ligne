@@ -15,6 +15,7 @@ blockquote {
 .img__stars {
     width: 1rem;
     height: 1rem;
+    color: #17abb3;
 }
 /* Partie Colonne de gauche*/
 .colonne__skill {
@@ -22,11 +23,11 @@ blockquote {
     flex-direction: column;
 
     background-color: #f5f5f5;
-    width: 70%;
+    width: 60%;
 }
 
 .skill__box {
-    margin: 15px 25px;
+    margin: 15px 30px;
 }
 
 .skill__box-container {
@@ -86,7 +87,8 @@ blockquote {
 }
 
 .article__text {
-
+ text-indent:1rem ;
+ margin: 0px;
 }
 
 .central__çontainer {
