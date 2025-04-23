@@ -3,15 +3,15 @@
   }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #e3e3e3;
     font-family: 'Raleway', sans-serif;
     margin: 0px;
-}
-
-.cv__contenair {
-    width: 1160px;
-    margin: 0 auto; /* centré horizontalement */
-    background-color: #fff; /* tu peux voir le bloc */
+    max-width: 1160px;
+    margin: 0 auto; 
 }
 
 header {
