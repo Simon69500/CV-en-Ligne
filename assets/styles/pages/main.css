@@ -15,18 +15,21 @@ blockquote {
 .img__stars {
     width: 1rem;
     height: 1rem;
+    color: #17abb3;
 }
+
+
 /* Partie Colonne de gauche*/
 .colonne__skill {
     display: flex;
     flex-direction: column;
 
     background-color: #f5f5f5;
-    width: 70%;
+    width: 60%;
 }
 
 .skill__box {
-    margin: 15px 25px;
+    margin: 15px 30px;
 }
 
 .skill__box-container {
@@ -53,6 +56,10 @@ blockquote {
     padding-left: 20px;
 }
 
+
+/* Liste personnalisée : suppression des puces natives avec list-style: none, 
+   puis ajout d'un carré coloré (■) via ::before pour styliser la puce. 
+   Positionnement absolu utilisé pour placer précisément la puce à gauche de l'élément. */
 .skill__box-list {
     list-style: none;
     padding-left: 20px;
@@ -73,6 +80,7 @@ blockquote {
     top: -0.3em; 
   }
 
+
 /* Partie Centrale*/
 .partie__central {
     display: flex;
@@ -81,22 +89,19 @@ blockquote {
     padding: 30px;
 }
 
-.central__article {
-
-}
-
 .article__text {
-
-}
-
-.central__çontainer {
-
+ text-indent:1rem ;
+ text-align: justify;
+ margin: 0px;
 }
 
 .çontainer__child {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 0px;
 }
 
 .çontainer__child-text {
@@ -105,4 +110,12 @@ blockquote {
 
 .çontainer__child-date {
     color: #17abb3;
+}
+
+
+/* Partie Effets dynamisme*/
+.çontainer__child:hover {
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+    padding-left: 10px;
 }

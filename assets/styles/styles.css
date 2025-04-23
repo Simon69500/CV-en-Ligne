@@ -1,29 +1,28 @@
-html {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #e3e3e3;
-
-}
+* {
+    box-sizing: border-box;
+  }
 
 body {
-    max-width: 1160px;
+    background-color: #e3e3e3;
+    font-family: 'Raleway', sans-serif;
     margin: 0px;
+}
+
+.cv__contenair {
+    width: 1160px;
+    margin: 0 auto; /* centré horizontalement */
+    background-color: #fff; /* tu peux voir le bloc */
 }
 
 header {
     background-color : #17abb3 ;
-    font-family: 'Raleway', sans-serif;
     width: 1160px;
 }
 
 main {
     display: flex;
     flex-direction: row;
-
     background-color : #ffffff ;
-    font-family: 'Raleway', sans-serif;
     width: 1160px;
 }
 
