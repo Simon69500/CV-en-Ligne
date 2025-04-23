@@ -17,6 +17,8 @@ blockquote {
     height: 1rem;
     color: #17abb3;
 }
+
+
 /* Partie Colonne de gauche*/
 .colonne__skill {
     display: flex;
@@ -54,6 +56,10 @@ blockquote {
     padding-left: 20px;
 }
 
+
+/* Liste personnalisée : suppression des puces natives avec list-style: none, 
+   puis ajout d'un carré coloré (■) via ::before pour styliser la puce. 
+   Positionnement absolu utilisé pour placer précisément la puce à gauche de l'élément. */
 .skill__box-list {
     list-style: none;
     padding-left: 20px;
@@ -74,6 +80,7 @@ blockquote {
     top: -0.3em; 
   }
 
+
 /* Partie Centrale*/
 .partie__central {
     display: flex;
@@ -82,18 +89,10 @@ blockquote {
     padding: 30px;
 }
 
-.central__article {
-
-}
-
 .article__text {
  text-indent:1rem ;
  text-align: justify;
  margin: 0px;
-}
-
-.central__çontainer {
-
 }
 
 .çontainer__child {
@@ -112,6 +111,7 @@ blockquote {
 .çontainer__child-date {
     color: #17abb3;
 }
+
 
 /* Partie Effets dynamisme*/
 .çontainer__child:hover {
