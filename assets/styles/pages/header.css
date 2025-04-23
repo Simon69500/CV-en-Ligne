@@ -88,3 +88,9 @@
     text-align: end;
 
 }
+
+
+/* Partie Effet Graphique*/
+.header__img:hover {
+cursor: zoom-in;
+}
