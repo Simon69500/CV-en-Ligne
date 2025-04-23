@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="Présentation de mon CV en ligne , qui mets mes compétences et acquis en avant dans les langages HTML et CSS">
+    <meta name="description" content="Présentation de mon CV en ligne , qui mets mes compétences et acquis en avant dans les langages HTML et CSS">
 
     <link rel="icon" href="./assets/img/favicon.ico">
 
@@ -18,7 +18,6 @@
     <title>CV en ligne</title>
 </head>
 <body>
-    <div class="cv__container">
 
         <!-- Partie HEADER -->
     <header>
@@ -42,7 +41,7 @@
                 
                     <div class="container-contact">
                         <img class="contact__icon" src="./assets/img/icon/phone-solid.svg" alt="image d'une enveloppe blanche">
-                        <a class="contact__items" href="tel: 0606060606">Téléphone</a>
+                        <a class="contact__items" href="tel:0606060606">Téléphone</a>
                     </div>
 
                     <div class="container-contact">
@@ -54,12 +53,13 @@
         </section>
     </header>
 
+
     <!-- Partie MAIN -->
     <main>
 
         
-    <!-- Partie Colonne de Gauche -->
-        <section class="colonne__skill">
+    <!-- Partie Colonne de Gauche - Début -->
+        <div class="colonne__skill">
 
             <section class="skill__box">
                 <h3 class="title__h3">Compétences</h3>
@@ -143,11 +143,12 @@
                     <li class="list__item">Ecologie</li>
                 </ul>
             </section>
-        </section>
+        </div>
+        <!-- Partie Colonne de Gauche - Fin -->
 
+        <!-- Partie Central / Début -->
+        <div class="partie__central">
 
-        <!-- Partie Central -->
-        <section class="partie__central">
 
             <article class="central__article">
                 <h3 class="title__h3">Profil</h3>
@@ -158,83 +159,84 @@
             <section class="central__çontainer">
 
                 <h3 class="title__h3">Formation</h3>
-                <section class="çontainer__child">
+                <div class="çontainer__child">
                     <blockquote>
                         <p class="çontainer__child-text"><strong>Titre Professionnel DWWM</strong></p>
                         <cite>Centre Européen de Formation</cite>
                     </blockquote>
-                    <p class="çontainer__child-date"><time datetime="2025">2025</time>/<time datetime="20264">2026</time></p>
-                </section>
+                    <p class="çontainer__child-date"><time datetime="2025">2025</time>/<time datetime="2026">2026</time></p>
+                </div>
 
-                <section class="çontainer__child">
+                <div class="çontainer__child">
                     <blockquote>
                         <p class="çontainer__child-text"><strong>Baccalauréat Pro - Commerce</strong></p>
                         <cite>Centre de Formation - Césame</cite>
                     </blockquote>
                     <p class="çontainer__child-date"><time datetime="2006-09"> Septembre 2006</time> – <time datetime="2008-06">juin 2008</time></p>
-                </section>
+                </div>
 
-                <section class="çontainer__child">
+                <div class="çontainer__child">
                     <blockquote>
                         <p class="çontainer__child-text"><strong>BEP - Vente Action Marchande</strong></p>
                         <cite>Centre de Formation - Césame</cite>
                     </blockquote>
                     <p class="çontainer__child-date"><time datetime="2005-09"> Septembre 2005</time> – <time datetime="2006-06">juin 2006</time></p>
-                </section>
+                </div>
 
             </section>
 
             <section class="central__çontainer">
 
                 <h3 class="title__h3">Stages</h3>
-                <section class="çontainer__child">
+                <div class="çontainer__child">
                     <blockquote>
                         <p class="çontainer__child-text"><strong>Vendeur</strong></p>
                         <cite>Papeterie Temps Libre</cite>
                     </blockquote>
                     <p class="çontainer__child-date"><time datetime="2006-09"> Septembre 2006</time> – <time datetime="2008-06">juin 2008</time></p>
-                </section>
+                </div>
 
-                <section class="çontainer__child">
+                <div class="çontainer__child">
                     <blockquote>
                         <p class="çontainer__child-text"><strong>Vendeur</strong></p>
                         <cite>Radio Télévision Service</cite>
                     </blockquote>
                     <p class="çontainer__child-date"><time datetime="2005-09"> Septembre 2005</time> – <time datetime="2006-06">juin 2006</time></p>
-                </section>
+                </div>
             </section>
 
             <section class="central__çontainer">
 
                 <h3 class="title__h3">Expérience Professionnel</h3>
-                <section class="çontainer__child">
+                <div class="çontainer__child">
                     <blockquote>
                         <p class="çontainer__child-text"><strong>Plombier</strong></p>
                         <cite>Rapide Service Dépannage </cite>
                     </blockquote>
                     <p class="çontainer__child-date"><time datetime="2013-01">Janvier 2013</time> – <time datetime="2023-08">Août 2023</time></p>
-                 </section>
+                 </div>
 
-                <section class="çontainer__child">
+                <div class="çontainer__child">
                     <blockquote>
                         <p class="çontainer__child-text"><strong>Militaire - Chasseurs Alpins</strong></p>
                         <cite>Armée de Terre - 27BCA Annecy</cite>
                     </blockquote>
                     <p class="çontainer__child-date"><time datetime="2009-10">Octobre 2009</time> – <time datetime="2012-09">Octobre 2012</time></p>
-                </section>
+                </div>
 
-                <section class="çontainer__child">
+                <div class="çontainer__child">
                     <blockquote>
                         <p class="çontainer__child-text"><strong>Vendeur</strong></p>
                         <cite>Papeterie Temps Libre</cite>
                     </blockquote>
                     <p class="çontainer__child-date"><time datetime="2006-01">Septembre 2008</time> - <time datetime="2000-09">Juillet 2009</time></p>
-                </section>
+                </div>
 
             </section>
-        </section>
+        </div>
     </main>
 
+    <!-- Partie Central / Fin -->
 
     <!-- Partie FOOTER -->
     <footer>
@@ -247,4 +249,5 @@
     </footer>
     </div>
 </body>
+
 </html>
