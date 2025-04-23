@@ -1,0 +1,29 @@
+/*Partie FOOTER*/
+
+.footer__box-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 15%;
+    padding-top: 20px;
+}
+
+.footer__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.footer__text {
+    color: #ffffff ;
+    font-style: italic;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+/*Partie Effet Graphique*/
+
+.footer__icon:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
