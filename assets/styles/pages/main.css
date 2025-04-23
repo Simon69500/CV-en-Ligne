@@ -88,6 +88,7 @@ blockquote {
 
 .article__text {
  text-indent:1rem ;
+ text-align: justify;
  margin: 0px;
 }
 
@@ -99,6 +100,9 @@ blockquote {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 0px;
 }
 
 .çontainer__child-text {
@@ -107,4 +111,11 @@ blockquote {
 
 .çontainer__child-date {
     color: #17abb3;
+}
+
+/* Partie Effets dynamisme*/
+.çontainer__child:hover {
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+    padding-left: 10px;
 }
